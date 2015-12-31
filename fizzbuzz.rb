@@ -1,6 +1,6 @@
 n = ARGV[0].to_i
 for i in 1..n
-  if i % 3 == 0 && i % 5 == 0
+  if i % 15 == 0
     puts "fizzbuzz"
   elsif i % 3 == 0
     puts "fizz"
