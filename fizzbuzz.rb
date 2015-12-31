@@ -1,5 +1,4 @@
 n = ARGV[0].to_i
-count =
 for i in 1..n
   if i % 3 == 0 && i % 5 == 0
     puts "fizzbuzz"
